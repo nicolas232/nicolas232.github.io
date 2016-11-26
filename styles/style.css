@@ -6,6 +6,7 @@ header {
 	height: 200px;
 	border: 16px double yellow;
 	margin-top: 0px;
+	width: 1600px;
 }
 table {
 	margin-top: 50px;
@@ -67,4 +68,5 @@ footer {
 	padding-bottom: 1px;
 	margin-top: 170px;
 	text-align: right;
+	width: 1600px;
 }
