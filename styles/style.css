@@ -1,6 +1,7 @@
 body {
 	font-family: Arial;
 	text-shadow: #0a78e3;
+	background-color: darkslateblue;
 }
 header {
 	width: 99%;
@@ -28,13 +29,15 @@ table {
 	border-radius: 0px 20px 20px 0px;
 }
 .cl3 {
+	margin-top: 50px;
+	margin-left: 50px;
 	border: 3px solid limegreen;
-	width: 30%;
 	padding: 10px;
 	background-color: black;
 	color: limegreen;
-	border-radius: 0px 20px 20px 0px;
 	text-shadow: 0 0 5px lightgreen;
+	text-align: right;
+	border-radius: 0px 20px 20px 0px;
 }
 a {
 	color: darkorange;
