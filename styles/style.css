@@ -1,51 +1,33 @@
 body {
-	font-family: Arial;
-	text-shadow: #0a78e3;
-	background-color: darkslateblue;
+	font-family: Candara;
+}
+header {
+	background: rgba(238, 170, 0, 0.9);
+	color: #fff;
+	padding-left: 20px;
+	text-align: left;
+	width: 70%;
+	margin-left: 14%;
+}
+div {
+	background: rgba(0, 170, 238, 0.9);
+	color: #fff;
+	text-align: left;
+	width: 70%;
+	margin-left: 14%;
 }
 table {
-	margin-left: 25%;
-	margin-bottom: 25px;
+	border-spacing: 100px 0px;
 }
-.cl1 {
-	padding: 10px;
-	color: cornflowerblue;
-	background-color: darkslateblue;
-	border-radius: 20px 20px 20px 20px;
-	text-shadow: 0 0 5px #0a78e3;
-	width: 100%;
-}
-.cl2 {
-	margin-left: 50px;
-	border: 3px solid limegreen;
-	padding: 10px;
-	background-color: black;
-	color: limegreen;
-	text-shadow: 0 0 5px lightgreen;
-	text-align: right;
-	border-radius: 0px 20px 20px 0px;
-}
-.cl3 {
-	margin-top: 50px;
-	margin-left: 50px;
-	border: 3px solid limegreen;
-	padding: 10px;
-	background-color: black;
-	color: limegreen;
-	text-shadow: 0 0 5px lightgreen;
-	text-align: right;
-	border-radius: 0px 20px 20px 0px;
-}
-a {
-	color: darkorange;
-	text-shadow: 0 0 5px #fe57a1;
+p {
+	font-size: 16pt;
 }
 footer {
-	border:  3px solid limegreen;
-	padding: 10px;
-	background-color: black;
-	color: limegreen;
-	text-shadow: 0 0 5px lightgreen;
-	width: 98%;
-	height: 10%;
+	background: rgba(100, 100, 100, 0.9);
+	color: #fff;
+	padding-right: 20px;
+	text-align: right;
+	width: 70%;
+	margin-top: 56px;
+	margin-left: 14%;
 }
