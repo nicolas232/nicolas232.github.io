@@ -13,10 +13,11 @@ header {
 }
 div {
 	padding-left: 6%;
+	padding-right: 6%;
 	background: rgba(0, 0, 0, 0.9);
 	color: #fff;
 	text-align: left;
-	width: 70%;
+	width: 60%;
 	margin-left: 14%;
 }
 p {
@@ -24,6 +25,9 @@ p {
 }
 a {
 	color: #f00;
+}
+.cl {
+	padding-left: 6%;
 }
 footer {
 	background: rgba(200, 0, 0, 0.9);
