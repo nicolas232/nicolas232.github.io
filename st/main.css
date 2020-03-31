@@ -1,40 +1,42 @@
-﻿@font-face {
-font-family: Slavianskiy;
-src: url(fonts/10385.ttf); 
+﻿body {
+	font-size:12pt;
+	font-family:Open Sans;
+	color: white;
+	background:#2E322B;
 }
-@font-face {
-font-family: Runic;
-src: url(fonts/4723.ttf); 
+#dm {
+	box-shadow:0 0 10px black;
+	width:70%;
+	margin-top:3%;
+	margin-left:15%;
+	background:#495A3E;
+	border:1px outset #899281;
 }
-body {
-font-size: 20pt;
-font-family: Slavianskiy;
-background-image: url(../img/bg.png);
-background-attachment: fixed;
-background-position: center center;
-background-size: cover;
-background-repeat: no-repeat;
-color: #201001;
-text-align: center;
+#d1 {
+	margin-left:2%;
+	float:left;
+	border:2px solid #717D68;
+	box-shadow:0 0 3px black;
 }
-div > form {
-display: inline-block;
+#d2 {
+	margin-left:45%;
+	width:60%;
+	height:80%;
 }
-button {
-margin-bottom: 16px;
+h1 {
+	text-align:center;
+	font-size:16pt;
+	font-weight: normal;
+}	
+h2 {
+	color:#A2B550;
+	font-size:12pt;
+	font-weight: normal;
 }
-button {
-background-image: url(../img/drevo.png);
-font-family: Runic;
-padding: 8px;
-width: 228px;
-font-size: 32pt;
-border: none;
-color: #000000bf;
-border-radius: 55px;
-box-shadow: 0 1px 2px black;
-transition: box-shadow 0.1s;
+p {
+	margin:0;
+	margin-left:5%;
 }
-button:active {
-box-shadow: 0 1px 1px black, inset 0 1px 2px black;
+a {
+	color:#EAE08D;
 }
