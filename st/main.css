@@ -1,42 +1,120 @@
 ﻿body {
-	font-size:12pt;
+	font-size:1.13vw;
 	font-family:Open Sans;
-	color: white;
-	background:#2E322B;
+	color:#fff;
 }
-#dm {
+#hdr {
 	box-shadow:0 0 10px black;
-	width:70%;
-	margin-top:3%;
+	width:25%;
+	height:9%;
+	margin-top:1%;
 	margin-left:15%;
 	background:#495A3E;
 	border:1px outset #899281;
 }
-#d1 {
-	margin-left:2%;
-	float:left;
-	border:2px solid #717D68;
-	box-shadow:0 0 3px black;
-}
-#d2 {
-	margin-left:45%;
-	width:60%;
+main {
+	box-shadow:0 0 10px black;
+	margin-top:1%;
+	margin-left:3%;
+	padding:1%;
+	width:35%;
 	height:80%;
+	background:#495A3E;
+	border:1px outset #899281;
+}
+#lnk {
+	box-shadow:0 0 10px black;
+	position:absolute;
+	bottom:5%;
+	right:2%;
+	margin-left:50%;
+	padding:1%;
+	width:20%;
+	height:4%;
+	background:#495A3E;
+	border:1px outset #899281;
 }
 h1 {
 	text-align:center;
-	font-size:16pt;
+	font-size:1.55vw;
 	font-weight: normal;
 }	
 h2 {
 	color:#A2B550;
-	font-size:12pt;
+	font-size:1.13vw;
 	font-weight: normal;
 }
 p {
 	margin:0;
-	margin-left:5%;
+	margin-left:3%;
 }
 a {
 	color:#EAE08D;
+}
+.body_slides{
+	list-style:none;
+	margin:0;
+	padding:0;
+	z-index:-2; 
+	background:#2E322B;
+}
+.body_slides, .body_slides:after{
+	position: fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px
+}
+.body_slides:after { 
+	content: '';
+	background: transparent #2E322B;
+
+}
+.body_slides li{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-size:cover;
+	background-position:center;
+	background-repeat:none;
+	opacity:0;
+	-webkit-animation: anim_slides 24s linear infinite 0s;
+	-moz-animation: anim_slides 24s linear infinite 0s;
+	-o-animation: anim_slides 24s linear infinite 0s;
+	-ms-animation: anim_slides 24s linear infinite 0s;
+	animation: anim_slides 24s linear infinite 0s;
+}
+.body_slides li:nth-child(1){
+	background-image:url(../img/bg1.jpg);
+}
+.body_slides li:nth-child(2){
+	-webkit-animation-delay: 6.0s;
+	-moz-animation-delay: 6.0s;
+	background-image:url(../img/bg2.jpg);
+}
+.body_slides li:nth-child(3){
+	-webkit-animation-delay: 12.0s;
+	-moz-animation-delay: 12.0s;
+	background-image:url(../img/bg3.jpg);
+}
+.body_slides li:nth-child(4){
+	-webkit-animation-delay: 18.0s;
+	-moz-animation-delay: 18.0s;
+	background-image:url(../img/bg4.jpg);
+}
+@-webkit-keyframes anim_slides {
+	0% {opacity:0;}
+	6% {opacity:1;}
+	24% {opacity:1;}
+	30% {opacity:0;}
+	100% {opacity:0;}
+}
+@-moz-keyframes anim_slides {
+	0% {opacity:0;}
+	6% {opacity:1;}
+	24% {opacity:1;}
+	30% {opacity:0;}
+	100% {opacity:0;}
 }
